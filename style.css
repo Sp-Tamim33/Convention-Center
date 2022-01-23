@@ -3,3 +3,29 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* carousel css  */
+
+.banner-section{
+    margin-top: -30px;
+}
+
+.carousel-control-next{
+    color: white !important;
+}
+
+.carousel-btn{
+    text-decoration: none;
+    padding: 10px 45px;
+    font-size: 22px;
+    background-color: white;
+    color: #007aff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .4s;
+}
+.carousel-btn:hover{
+    background-color: #007aff;
+    color: white;
+}
