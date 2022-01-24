@@ -115,3 +115,13 @@
     color: #007aff;
     border: none;
 }
+
+/* clients feedback css  */
+
+.feedback-card{
+    width: 90%;
+}
+.feedback-content p{
+    line-height: 1.8;
+    font-weight: 500;
+}
