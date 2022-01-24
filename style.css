@@ -138,3 +138,39 @@
     line-height: 1.8;
 }
 
+
+/* Extra css for Responsive  */
+
+@media (max-width: 375px) {
+    .footer-right-content{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 412px) {
+    .package-three {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 80px !important;
+        width: 90%;
+    }
+    .package-three::after {
+        top: -96%;
+    }
+
+
+    .feedback-card{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .accordion-section-img img{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    .accordion-section-img img{
+        max-width: 100%;
+    }
+}
